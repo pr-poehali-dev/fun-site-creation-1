@@ -58,7 +58,7 @@ const Index = () => {
             КНОПКА ПРИКОЛА
           </Button>
           
-          <div className="flex gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             <div className="transform hover:scale-110 transition-all duration-300">
               <iframe 
                 width="110" 
@@ -86,6 +86,17 @@ const Index = () => {
                 width="110" 
                 height="200" 
                 src="https://www.myinstants.com/instant/bem-bem-bem-melsstroi-76136/embed/" 
+                frameBorder="0" 
+                scrolling="no"
+                className="rounded-3xl shadow-2xl border-4 border-white"
+              />
+            </div>
+            
+            <div className="transform hover:scale-110 transition-all duration-300">
+              <iframe 
+                width="110" 
+                height="200" 
+                src="https://www.myinstants.com/instant/tralalero-tra-la-la-8817/embed/" 
                 frameBorder="0" 
                 scrolling="no"
                 className="rounded-3xl shadow-2xl border-4 border-white"
