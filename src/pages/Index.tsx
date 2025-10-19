@@ -46,7 +46,7 @@ const Index = () => {
           </p>
         </header>
 
-        <div className="flex justify-center mb-16">
+        <div className="flex flex-col items-center gap-8 mb-16">
           <Button
             size="lg"
             onClick={playSound}
@@ -57,6 +57,17 @@ const Index = () => {
             <Icon name="Volume2" className="mr-3" size={32} />
             КНОПКА ПРИКОЛА
           </Button>
+          
+          <div className="transform hover:scale-110 transition-all duration-300">
+            <iframe 
+              width="110" 
+              height="200" 
+              src="https://www.myinstants.com/instant/ia-peshcheru-nashla-kvinka-83784/embed/" 
+              frameBorder="0" 
+              scrolling="no"
+              className="rounded-3xl shadow-2xl border-4 border-white"
+            />
+          </div>
         </div>
 
         <section className="mb-20">
