@@ -106,6 +106,14 @@ const Index = () => {
         </div>
 
         <section className="mb-20">
+          <div className="flex justify-center mb-12">
+            <img 
+              src="https://cdn.poehali.dev/files/27cb02bb-485f-4cf1-877d-01c733078f94.jpeg" 
+              alt="Акула в кроссовках"
+              className="rounded-3xl shadow-2xl border-8 border-white max-w-2xl w-full transform hover:scale-105 hover:rotate-2 transition-all duration-500"
+            />
+          </div>
+          
           <h2 className="text-6xl font-bold text-center mb-12 text-card-foreground">
             🎨 Галерея Мемов
           </h2>
