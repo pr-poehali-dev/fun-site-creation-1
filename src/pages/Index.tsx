@@ -80,6 +80,17 @@ const Index = () => {
                 className="rounded-3xl shadow-2xl border-4 border-white"
               />
             </div>
+            
+            <div className="transform hover:scale-110 transition-all duration-300">
+              <iframe 
+                width="110" 
+                height="200" 
+                src="https://www.myinstants.com/instant/bem-bem-bem-melsstroi-76136/embed/" 
+                frameBorder="0" 
+                scrolling="no"
+                className="rounded-3xl shadow-2xl border-4 border-white"
+              />
+            </div>
           </div>
         </div>
 
